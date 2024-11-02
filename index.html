@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-for-allpage" id="signuppage">
+
+        <div class="fullform-con">
+            
+           <h2>Information Request Forms</h2>
+            <hr>
+        
+            <div class="sfor">
+            <div class="first-line f">
+                <input type="text" id="firstname" placeholder="First name">
+                <input type="text" id="surname" placeholder="surname">
+            </div>
+            <p class="pa">Date of birth ?</p>
+            <div class="first-line">
+               <input type="date" placeholder="Enter Age" id="birthday">
+               <input type="number" placeholder="phone number" id="phonenumber">
+            </div>
+         
+            <p class="pa">Gender ?</p>
+            <div class="third-line">
+                <div class="box" id="Female">
+                   <span>Male</span>
+                   <span class="sp"><input type="radio" name="gender" value="Male"></span>
+                </div>
+
+                <div class="box" id="Male">
+                    <span>Female</span>
+                    <span class="sp"><input type="radio" name="gender" value="Female"></span>
+                 </div>
+
+                 <div class="box" id="Custom">
+                    <span>Others</span>
+                    <span class="sp"><input type="radio" name="gender" value="Others"></span>
+                 </div>
+            </div>
+            <div class="fourth-line">
+
+                <input type="text" placeholder="Adress" id="Adress">
+                <input type="email" placeholder="email" id="Email">
+                <input type="text" placeholder="City" id="city">
+
+            </div>
+
+            <div class="fifth-line">
+                <p>People who use our service may have uploaded your contact information to <br>   <a href="#">Learn more.</a></p>
+                <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Cookies Policy.</a> You may receive SMS notifications from us and can opt out at any time.</p>
+            </div>
+            <div class="btn">
+                <button onclick="Stored()">Submit</button> <br>
+                <button style="background-color: green;" onclick="idCard()">Genetete</button>
+            </div>
+      
+        </div>
+    
+       </div>
+
+  
+
+    <div id="idcard-main" class="hide">
+
+      <h2>ID Card</h2>
+      <hr>
+      <img src="moiz.jpg" alt="">
+
+    </div>
+
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
